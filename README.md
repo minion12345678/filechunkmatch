@@ -54,6 +54,7 @@ Python is a powerful programming language.
 ✅ Done!
 
 ⚡ How Matching Works
+
 The search is simple keyword matching:
 
 Your question is split into words.
@@ -63,6 +64,7 @@ Each chunk is also split into words.
 The chunk with the most words in common with your question is selected.
 
 ❗ Important Notes
+
 If the file is not found, the program will print an error and exit immediately.
 
 The current matching is case-insensitive but basic (no stemming, no fuzzy matching).
