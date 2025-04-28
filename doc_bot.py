@@ -23,6 +23,7 @@ def load_chunks(file_path, chunk_size=1024):
                 chunks.append(leftover)
     except FileNotFoundError:
         print(f"Error: File not found at {file_path}")
+        sys.exit(1)
     return chunks
 
 
