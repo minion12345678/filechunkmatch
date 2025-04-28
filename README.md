@@ -1,9 +1,11 @@
 🤖 Doc Bot
+
 This project lets you split a text file into chunks and search for the closest matching chunk based on a user's question.
 
 It is a simple and fast way to find relevant parts of large text files without manually reading the entire file.
 
 🚀 Features
+
 Splits a file into manageable text chunks (default: 1024 characters at a time).
 
 Accepts user questions and finds the most relevant chunk based on word overlap.
@@ -13,6 +15,7 @@ Handles missing files gracefully (exits with an error if file is not found).
 Easy to extend with more advanced matching (e.g., fuzzy matching, semantic search).
 
 📦 Requirements
+
 Python 3.7 or higher
 
 No external libraries needed (only built-in modules: sys)
@@ -27,12 +30,10 @@ python doc_bot.py path/to/your/file.txt
 Once running, you can ask questions about the content.
 
 To exit, simply type:
-
-bash
-Copy
-Edit
 exit
+
 📋 Example
+
 Suppose your file (example.txt) contains:
 
 The quick brown fox jumps over the lazy dog.
@@ -69,6 +70,7 @@ The current matching is case-insensitive but basic (no stemming, no fuzzy matchi
 Chunks are split based on character size, not by paragraph or meaning.
 
 🔥 Future Improvements (Optional Ideas)
+
 Add fuzzy matching using difflib for better partial matches.
 
 Implement semantic search with vector embeddings (e.g., using sentence-transformers).
