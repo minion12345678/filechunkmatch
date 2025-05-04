@@ -70,16 +70,3 @@ If the file is not found, the program will print an error and exit immediately.
 The current matching is case-insensitive but basic (no stemming, no fuzzy matching).
 
 Chunks are split based on character size, not by paragraph or meaning.
-
-Future Improvements (Optional Ideas)
-
-Add fuzzy matching using difflib for better partial matches.
-
-Implement semantic search with vector embeddings (e.g., using sentence-transformers).
-
-Allow adjustable chunk sizes and smarter splitting (by paragraphs, sections, etc.).
-
-Save the matching results into a file.
-
-Author: Written by Alexis Newell
-
